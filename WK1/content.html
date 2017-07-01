@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--Brandon Lo CS290-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Week 1 Assignment HTML/CSS</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <body>
+        <table>
+            <caption>The multiplication table.</caption>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th colspan="2">footer 1</th>
+                    <th colspan="4">footer 2</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>10</td>
+                </tr>
+            <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>6</td>
+                <td>9</td>
+                <td>12</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>4</td>
+                <td>8</td>
+                <td>12</td>
+                <td>16</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>5</td>
+                <td>10</td>
+                <td>15</td>
+                <td>20</td>
+                <td>25</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <ol>
+            <li>Most familiar programming language</li>
+            <ul>Python</ul>
+            <li>2nd most familiar programming language</li>
+            <ul>C++</ul>
+            <li>3rd most familiar programming language</li>
+            <ul>C</ul>
+        </ol>
+
+        <br>
+        <div class="outer-content">
+            <div class="inner-content">
+                SOME TEXT
+            </div>
+        </div>
+
+        <br>
+        <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+            <fieldset>
+                <legend>Post Form</legend>
+                <label>Text here:
+                    <input type="text" name="text_input" >
+                </label>
+                <label>Number here:
+                    <input type="number" name="numerical_input" >
+                </label>
+                <label>Password here:
+                    <input type="password" name="password_input" >
+                </label>
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <p>Select Between:</p>
+                    <br>
+                    <label>
+                        <input type="radio" name="candy" value="Snickers">Snickers
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        <input type="radio" name="candy" value="Skittles">Skittles
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        <input type="radio" name="candy" value="Mentos">Mentos
+                    </label>
+
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+        <br>
+        <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+        <fieldset>
+            <legend>Post Form</legend>
+            <label>Text here:
+                <input type="text" name="text_input" >
+            </label>
+            <label>Number here:
+                <input type="number" name="numerical_input" >
+            </label>
+            <label>Password here:
+                <input type="password" name="password_input" >
+            </label>
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <p>Select Between:</p>
+            <br>
+            <label>
+                <input type="radio" name="candy" value="Snickers"/>Snickers
+            </label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="candy" value="Skittles"/>Skittles
+            </label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="candy" value="Mentos"/>Mentos
+            </label>
+
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        </form>
+
+
+    </body>
+</html>

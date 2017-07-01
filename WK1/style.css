@@ -1,0 +1,33 @@
+/*Brandon Lo CS290*/
+.inner-content{
+    background-color: #ADD8E6;
+    text-align: center;
+}
+.outer-content{
+    background-color: #ff69b4;
+    padding: 20px;
+    left: 0;
+    margin-top: 20px;
+    width: 75%;
+}
+table, th, tr, td{
+    border: 1px solid black;
+    width: 17%;
+}
+
+tbody td:nth-child(1){
+     font-style: italic;
+}
+tbody td:nth-child(2){
+    color: red;
+}
+tbody td:nth-child(4){
+    color: darkcyan;
+}
+tbody tr:nth-of-type(odd) {
+    background-color: palegreen;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: lightskyblue;
+}
