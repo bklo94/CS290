@@ -1,0 +1,45 @@
+<!-- Brandon Lo CS290 AJAX -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>Brandon Lo AJAX Interactions</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body>
+    <!--Div for creating the weather form-->
+    <div class = "weather" div>
+      <form>
+        <fieldset>
+          <legend>Retrieve Weather by City or Zipcode</legend>
+          <label for "city"> City: </label>
+          <input type = "text" name ="city" id = "city"><br /><br />
+          <label for "zipcode"> Zipcode: </label>
+          <input type = "text" name = "zipcode" id = "zipcode"><br /><br />
+          <input type = "submit" id = "cizip">
+        </fieldset>
+      </form>
+      <form>
+      <fieldset>
+      <div id = "results"> <span> Current Weather:</span><br /></div>
+    </fieldset>
+    </div>
+
+    <!--Div for creating the post form-->
+    <div class = "htbin">
+      <form>
+        <fieldset>
+          <legend> Form for http://httpbin.org/post </legend>
+          <label for "send"> Send: </label>
+          <input type = "text" name = "send" id = "send">
+          <input type = "submit" id = urlSubmit>
+        </fieldset>
+      </form>
+      <fieldset>
+        <div id = "results2"><span> Here is the data back: <span><br/></div>
+    </div>
+
+  <script src="script.js"></script>
+  </body>
+</html>

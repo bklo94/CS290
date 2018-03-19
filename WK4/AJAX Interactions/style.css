@@ -1,0 +1,12 @@
+/*Brandon Lo
+CS290
+style.css*/
+
+* {
+    font: 16px Tahoma, sans-serif;
+}
+
+label{
+  display:inline-block;
+  width:75px;
+}
